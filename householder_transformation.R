@@ -1,6 +1,5 @@
-# Householder transformation convert a symmertic to a tridiagonal matrix
-A<-matrix(c(1,-1,2,2,-1,2,1,-1,2,1,3,2,2,-1,2,1),ncol = 4,byrow = TRUE)
-A<-matrix(c(2,-1,1,-1,3,2,1,2,1),ncol = 3,byrow = TRUE)
+# Householder transformation convert a symmertic matrix to a tridiagonal matrix
+
 
 Householder_trasformation<-function(A){
 n<-ncol(A)
